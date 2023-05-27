@@ -14,6 +14,13 @@
 		3FC9FAB42A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAB22A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld */; };
 		3FC9FAB62A220ABD00A6A9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9FAB52A220ABD00A6A9EB /* Assets.xcassets */; };
 		3FC9FAB92A220ABD00A6A9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9FAB72A220ABD00A6A9EB /* LaunchScreen.storyboard */; };
+		3FC9FAC62A220B9800A6A9EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAC52A220B9800A6A9EB /* LoginViewController.swift */; };
+		3FC9FAC82A220BB000A6A9EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAC72A220BB000A6A9EB /* RegisterViewController.swift */; };
+		3FC9FACA2A220BD100A6A9EB /* RegularHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAC92A220BD100A6A9EB /* RegularHomeTableViewController.swift */; };
+		3FC9FACC2A220BE500A6A9EB /* RegularHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FACB2A220BE500A6A9EB /* RegularHomeTableViewCell.swift */; };
+		3FC9FACE2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FACD2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift */; };
+		3FC9FAD02A220C3800A6A9EB /* RegularCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FACF2A220C3800A6A9EB /* RegularCartTableViewController.swift */; };
+		3FC9FAD22A220C5200A6A9EB /* RegularCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAD12A220C5200A6A9EB /* RegularCartTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		3FC9FAB52A220ABD00A6A9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC9FAB82A220ABD00A6A9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC9FABA2A220ABD00A6A9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC9FAC52A220B9800A6A9EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FC9FAC72A220BB000A6A9EB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = TestCartComponent/Views/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		3FC9FAC92A220BD100A6A9EB /* RegularHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularHomeTableViewController.swift; sourceTree = "<group>"; };
+		3FC9FACB2A220BE500A6A9EB /* RegularHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularHomeTableViewCell.swift; sourceTree = "<group>"; };
+		3FC9FACD2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularHomeProductDetailViewController.swift; sourceTree = "<group>"; };
+		3FC9FACF2A220C3800A6A9EB /* RegularCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCartTableViewController.swift; sourceTree = "<group>"; };
+		3FC9FAD12A220C5200A6A9EB /* RegularCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCartTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 		3FC9FAA82A220ABC00A6A9EB /* TestCartComponent */ = {
 			isa = PBXGroup;
 			children = (
+				3FC9FAC22A220B5D00A6A9EB /* Model */,
+				3FC9FAC12A220B5400A6A9EB /* Views */,
 				3FC9FAA92A220ABC00A6A9EB /* AppDelegate.swift */,
 				3FC9FAAB2A220ABC00A6A9EB /* SceneDelegate.swift */,
 				3FC9FAAD2A220ABC00A6A9EB /* ViewController.swift */,
@@ -68,6 +84,51 @@
 				3FC9FAB22A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld */,
 			);
 			path = TestCartComponent;
+			sourceTree = "<group>";
+		};
+		3FC9FAC02A220B4A00A6A9EB /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9FAC42A220B7200A6A9EB /* Cart */,
+				3FC9FAC32A220B6D00A6A9EB /* Home */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		3FC9FAC12A220B5400A6A9EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9FAC02A220B4A00A6A9EB /* Regular */,
+				3FC9FAC52A220B9800A6A9EB /* LoginViewController.swift */,
+				3FC9FAC72A220BB000A6A9EB /* RegisterViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FC9FAC22A220B5D00A6A9EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FC9FAC32A220B6D00A6A9EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9FAC92A220BD100A6A9EB /* RegularHomeTableViewController.swift */,
+				3FC9FACB2A220BE500A6A9EB /* RegularHomeTableViewCell.swift */,
+				3FC9FACD2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3FC9FAC42A220B7200A6A9EB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9FACF2A220C3800A6A9EB /* RegularCartTableViewController.swift */,
+				3FC9FAD12A220C5200A6A9EB /* RegularCartTableViewCell.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC9FAD02A220C3800A6A9EB /* RegularCartTableViewController.swift in Sources */,
 				3FC9FAAE2A220ABC00A6A9EB /* ViewController.swift in Sources */,
 				3FC9FAAA2A220ABC00A6A9EB /* AppDelegate.swift in Sources */,
 				3FC9FAAC2A220ABC00A6A9EB /* SceneDelegate.swift in Sources */,
+				3FC9FAC82A220BB000A6A9EB /* RegisterViewController.swift in Sources */,
+				3FC9FACA2A220BD100A6A9EB /* RegularHomeTableViewController.swift in Sources */,
+				3FC9FAC62A220B9800A6A9EB /* LoginViewController.swift in Sources */,
 				3FC9FAB42A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld in Sources */,
+				3FC9FAD22A220C5200A6A9EB /* RegularCartTableViewCell.swift in Sources */,
+				3FC9FACC2A220BE500A6A9EB /* RegularHomeTableViewCell.swift in Sources */,
+				3FC9FACE2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
