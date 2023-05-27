@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3FC9FAAA2A220ABC00A6A9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAA92A220ABC00A6A9EB /* AppDelegate.swift */; };
 		3FC9FAAC2A220ABC00A6A9EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAAB2A220ABC00A6A9EB /* SceneDelegate.swift */; };
-		3FC9FAAE2A220ABC00A6A9EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAAD2A220ABC00A6A9EB /* ViewController.swift */; };
 		3FC9FAB12A220ABC00A6A9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9FAAF2A220ABC00A6A9EB /* Main.storyboard */; };
 		3FC9FAB42A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAB22A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld */; };
 		3FC9FAB62A220ABD00A6A9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9FAB52A220ABD00A6A9EB /* Assets.xcassets */; };
@@ -21,13 +20,14 @@
 		3FC9FACE2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FACD2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift */; };
 		3FC9FAD02A220C3800A6A9EB /* RegularCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FACF2A220C3800A6A9EB /* RegularCartTableViewController.swift */; };
 		3FC9FAD22A220C5200A6A9EB /* RegularCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAD12A220C5200A6A9EB /* RegularCartTableViewCell.swift */; };
+		3FC9FAD42A221A4500A6A9EB /* ProductHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAD32A221A4500A6A9EB /* ProductHolder.swift */; };
+		3FC9FAD82A221AD200A6A9EB /* ProductCartHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9FAD72A221AD200A6A9EB /* ProductCartHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FC9FAA62A220ABC00A6A9EB /* TestCartComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCartComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC9FAA92A220ABC00A6A9EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC9FAAB2A220ABC00A6A9EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FC9FAAD2A220ABC00A6A9EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FC9FAB02A220ABC00A6A9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC9FAB32A220ABC00A6A9EB /* TestCartComponent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCartComponent.xcdatamodel; sourceTree = "<group>"; };
 		3FC9FAB52A220ABD00A6A9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		3FC9FACD2A220C0800A6A9EB /* RegularHomeProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularHomeProductDetailViewController.swift; sourceTree = "<group>"; };
 		3FC9FACF2A220C3800A6A9EB /* RegularCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCartTableViewController.swift; sourceTree = "<group>"; };
 		3FC9FAD12A220C5200A6A9EB /* RegularCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCartTableViewCell.swift; sourceTree = "<group>"; };
+		3FC9FAD32A221A4500A6A9EB /* ProductHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHolder.swift; sourceTree = "<group>"; };
+		3FC9FAD72A221AD200A6A9EB /* ProductCartHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCartHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,6 @@
 				3FC9FAC12A220B5400A6A9EB /* Views */,
 				3FC9FAA92A220ABC00A6A9EB /* AppDelegate.swift */,
 				3FC9FAAB2A220ABC00A6A9EB /* SceneDelegate.swift */,
-				3FC9FAAD2A220ABC00A6A9EB /* ViewController.swift */,
 				3FC9FAAF2A220ABC00A6A9EB /* Main.storyboard */,
 				3FC9FAB52A220ABD00A6A9EB /* Assets.xcassets */,
 				3FC9FAB72A220ABD00A6A9EB /* LaunchScreen.storyboard */,
@@ -108,6 +109,8 @@
 		3FC9FAC22A220B5D00A6A9EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3FC9FAD32A221A4500A6A9EB /* ProductHolder.swift */,
+				3FC9FAD72A221AD200A6A9EB /* ProductCartHolder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,12 +206,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC9FAD02A220C3800A6A9EB /* RegularCartTableViewController.swift in Sources */,
-				3FC9FAAE2A220ABC00A6A9EB /* ViewController.swift in Sources */,
 				3FC9FAAA2A220ABC00A6A9EB /* AppDelegate.swift in Sources */,
 				3FC9FAAC2A220ABC00A6A9EB /* SceneDelegate.swift in Sources */,
 				3FC9FAC82A220BB000A6A9EB /* RegisterViewController.swift in Sources */,
 				3FC9FACA2A220BD100A6A9EB /* RegularHomeTableViewController.swift in Sources */,
+				3FC9FAD42A221A4500A6A9EB /* ProductHolder.swift in Sources */,
 				3FC9FAC62A220B9800A6A9EB /* LoginViewController.swift in Sources */,
+				3FC9FAD82A221AD200A6A9EB /* ProductCartHolder.swift in Sources */,
 				3FC9FAB42A220ABC00A6A9EB /* TestCartComponent.xcdatamodeld in Sources */,
 				3FC9FAD22A220C5200A6A9EB /* RegularCartTableViewCell.swift in Sources */,
 				3FC9FACC2A220BE500A6A9EB /* RegularHomeTableViewCell.swift in Sources */,
